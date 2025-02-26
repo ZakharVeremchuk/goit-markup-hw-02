@@ -83,6 +83,11 @@ h3 {
     text-decoration: underline;
 }
 
+.contact-link {
+    color: inherit;
+    font-style: normal;
+}
+
 #service > button {
     background-color: var(--iris-color);
     color: var(--white-text-color)
