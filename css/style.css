@@ -38,26 +38,16 @@ body ul {
     color:#2E2F42;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
     color: inherit;
     letter-spacing: inherit;
-}
-
-h2 {
-    font-weight:  500;
-}
-
-h1 {
     color: var(--white-text-color);
     font-size: 56px;
     background-color: var(--navy-blue-color);
     line-height: 60px;
 }
 
-h2 {
-    font-size: 36px;
-}
 
 h3 {
     font-size: 20px;
@@ -110,4 +100,18 @@ h3 {
 .service-button:hover  {
     background-color: var(--ocean-color);
     cursor: pointer;
+}
+
+.second-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
+
+.first-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
