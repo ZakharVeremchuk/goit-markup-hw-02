@@ -54,6 +54,10 @@ h3 {
     font-size: 20px;
 }
 
+.address-link .information {
+    color: #434455;
+}
+
 .header-link, .address-link {
     text-align: left;
     font-style: normal;
@@ -75,9 +79,6 @@ h3 {
     text-decoration: underline;
 }
 
-.information {
-    color: #434455;
-}
 
 .service {
     background-color: var(--navy-blue-color) ;
