@@ -1,0 +1,62 @@
+:root {
+    --white-text-color: #FFFF;
+    --navy-blue-color: #2E2F42;
+    --ocean-color: #404BBF;
+    --iris-color: #4D5AE5;
+}
+
+body {
+    font-family: Roboto;
+    color: var(--navy-blue-color);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    text-align: center; 
+}
+
+h1 {
+    color: var(--white-text-color);
+    font-size: 56px;
+    background-color: var(--navy-blue-color);
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.header-link, .address-link {
+    text-align: left;
+}
+
+.header-link a, .address-link a {
+    color: var(--navy-blue-color);
+    text-decoration: none;
+}
+
+.header-link a:hover, .address-link a:hover {
+    color: var(--ocean-color);
+}
+
+.header-link a:active {
+    text-decoration: underline;
+}
+
+#service > button {
+    background-color: var(--iris-color);
+    color: var(--white-text-color);
+}
+#service > button:hover {
+    background-color: var(--ocean-color);
+}
