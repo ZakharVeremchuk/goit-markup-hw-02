@@ -65,6 +65,7 @@ h3 {
 
 .header-link, .address-link {
     text-align: left;
+    font-style: normal;
 }
 
 .header-link a, .address-link a {
@@ -85,7 +86,6 @@ h3 {
 
 .contact-link {
     color: inherit;
-    font-style: normal;
 }
 
 #service > button {
