@@ -6,11 +6,13 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     color: var(--navy-blue-color);
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
+    color: #434455;
+    background-color: var(--white-text-color);
 }
 
 body ul {
@@ -55,7 +57,7 @@ h3 {
 
 #service > button {
     background-color: var(--iris-color);
-    color: var(--white-text-color);
+    color: var(--white-text-color)
 }
 #service > button:hover {
     background-color: var(--ocean-color);
