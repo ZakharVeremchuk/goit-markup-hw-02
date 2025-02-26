@@ -133,3 +133,8 @@ h3 {
 .third-section-list {
     background-color: var(--white-text-color);
 }
+
+
+.footer {
+    background-color: var(--navy-blue-color);
+}
