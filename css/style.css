@@ -108,5 +108,5 @@ h3 {
 .service 
 .service-button:hover 
 .service-button:focus {
-    background-color: var(--ocean-color);
+    background-color: #404BBF;
 }
