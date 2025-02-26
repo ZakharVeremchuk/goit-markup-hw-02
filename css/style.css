@@ -88,10 +88,18 @@ h3 {
     color: #434455;
 }
 
-#service > button {
+.service {
+    background-color: var(--navy-blue-color) ;
+}
+
+.service-header {
+    line-height: 1.07;
+    letter-spacing: 2%;
+}
+.service .service-button {
     background-color: var(--iris-color);
     color: var(--white-text-color)
 }
-#service > button:hover {
+.service .service-button:hover {
     background-color: var(--ocean-color);
 }
