@@ -30,7 +30,7 @@ body ul {
 }
 
 
-.link-studio {
+.link {
     font-weight: 500;
 }
 
@@ -72,9 +72,14 @@ h3 {
     text-decoration: none;
 }
 
+.address-link {
+    font-style: normal;
+}
+
 .header-link a:hover, 
 .header-link a:focus,
-.address-link a:hover {
+.address-link a:hover,
+.address-link a:focus {
     color: var(--ocean-color);
 }
 
