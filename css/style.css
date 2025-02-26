@@ -105,8 +105,9 @@ h3 {
     background-color: var(--iris-color);
     color: var(--white-text-color);
 }
-.service 
-.service-button:hover 
-.service-button:focus {
+
+.service-button:focus, 
+.service-button:hover  {
     background-color: #404BBF;
+    cursor: pointer;
 }
