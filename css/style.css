@@ -134,7 +134,14 @@ h3 {
     background-color: var(--white-text-color);
 }
 
-
 .footer {
     background-color: var(--navy-blue-color);
+}
+
+.footer-second-part {
+    color: var(--cloud-color);
+}
+
+.footer-paragraph {
+    color: var(--cloud-color);
 }
