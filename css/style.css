@@ -3,6 +3,7 @@
     --navy-blue-color: #2E2F42;
     --ocean-color: #404BBF;
     --iris-color: #4D5AE5;
+    --cloud-color: #F4F4FD;
 }
 
 body {
@@ -102,7 +103,7 @@ h3 {
     cursor: pointer;
 }
 
-.second-section-header {
+.element-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -110,8 +111,25 @@ h3 {
     color: var(--navy-blue-color);
 }
 
-.second-section-paragraph {
+.element-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.third-section {
+    background-color: var(--cloud-color);
+}
+
+.third-section-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+}
+
+.third-section-list {
+    background-color: var(--white-text-color);
 }
