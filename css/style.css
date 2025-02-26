@@ -94,12 +94,19 @@ h3 {
 
 .service-header {
     line-height: 1.07;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 .service .service-button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size:  16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: var(--iris-color);
-    color: var(--white-text-color)
+    color: var(--white-text-color);
 }
-.service .service-button:hover {
+.service 
+.service-button:hover 
+.service-button:focus {
     background-color: var(--ocean-color);
 }
