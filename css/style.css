@@ -72,9 +72,10 @@ h3 {
     text-decoration: none;
 }
 
-.address-link {
-    font-style: normal;
+.contact-link {
+    font-style: normal
 }
+
 
 .header-link a:hover, 
 .header-link a:focus,
