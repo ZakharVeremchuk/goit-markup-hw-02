@@ -33,7 +33,6 @@ body ul {
 
 .link {
     font-weight: 500;
-    color: #434455;
 }
 
 .logo-second-part {
@@ -76,7 +75,7 @@ h3 {
     text-decoration: underline;
 }
 
-.contact-link {
+.contact .info {
     color: #434455;
 }
 
