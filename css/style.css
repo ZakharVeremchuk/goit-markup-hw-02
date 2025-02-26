@@ -3,7 +3,6 @@
     --navy-blue-color: #2E2F42;
     --ocean-color: #404BBF;
     --iris-color: #4D5AE5;
-    --aaa:  #2e2f42;
 }
 
 body {
@@ -20,9 +19,24 @@ body ul {
     list-style-type: none;
 }
 
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+
+.logo-second-part {
+    color:#2E2F42;
+}
+
 h1, h2 {
     text-align: center;
-    color: #2e2f42;
+    color: inherit;
+    letter-spacing: inherit;
 }
 
 h2 {
